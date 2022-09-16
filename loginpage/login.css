@@ -11,6 +11,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #F3F9FF;
 }
 
 * body .sidebar {
@@ -58,5 +59,25 @@
   text-decoration: none;
   color: #243F67;
   font-size: 2vh;
+}
+
+* body .pagestuff {
+  text-align: center;
+  width: 100%;
+  padding-top: 60px;
+}
+
+* body .pagestuff .pageheader {
+  line-height: 50px;
+}
+
+* body .pagestuff .pageheader p {
+  font-size: 6vh;
+  color: #243F67;
+}
+
+* body .pagestuff .pageheader img {
+  height: 300px;
+  width: 300px;
 }
 /*# sourceMappingURL=login.css.map */

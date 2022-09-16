@@ -15,6 +15,7 @@ $background: #F3F9FF;
     // body
     body {
         display: flex;
+        background-color: $background;
         //Sidebar
         .sidebar {
             height: 100vh;
@@ -50,6 +51,29 @@ $background: #F3F9FF;
                         color: $darkblue;
                         font-size: 2vh;
                     }
+                }
+            }
+        }
+        .pagestuff {
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            text-align: center;
+            width: 100%;
+            padding-top: 60px;
+            // border: 1px red solid;
+            .pageheader {
+                // border: 1px green solid;
+                line-height: 50px;
+                p {
+                    font-size: 6vh;
+                    color: $darkblue;
+                }
+                img {
+                    height: 300px;
+                    width: 300px;
+                    // border: 1px yellow solid;
                 }
             }
         }
