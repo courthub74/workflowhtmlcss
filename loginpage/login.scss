@@ -1,0 +1,31 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+// COLORS
+$darkblue: #243F67;
+$background: #F3F9FF;
+
+
+// Whole Page
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    // body
+    body {
+        display: flex;
+        //Sidebar
+        .sidebar {
+            height: 100vh;
+            width: 280px;
+            background-color: $darkblue;
+            color: white;
+            transition: all 0.5s ease-in;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 600px;
+        }
+    }
+}
