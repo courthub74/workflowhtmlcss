@@ -25,7 +25,33 @@ $background: #F3F9FF;
             padding: 20px 0;
             display: flex;
             flex-direction: column;
-            gap: 600px;
+            gap: 500px;
+            // Sidebar Header
+            .header {
+                font-size: 3vh;
+                font-weight: bold;
+                text-align: center;
+            }
+            // Anonymous Login Button and header
+            .anonlogin {
+                text-align: center;
+                line-height: 40px;
+                p {
+                    font-size: large;
+                }
+                button {
+                    background-color: white;
+                    border: none;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    a {
+                        text-decoration: none;
+                        color: $darkblue;
+                        font-size: 2vh;
+                    }
+                }
+            }
         }
     }
 }

@@ -28,6 +28,35 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 600px;
+  gap: 500px;
+}
+
+* body .sidebar .header {
+  font-size: 3vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+* body .sidebar .anonlogin {
+  text-align: center;
+  line-height: 40px;
+}
+
+* body .sidebar .anonlogin p {
+  font-size: large;
+}
+
+* body .sidebar .anonlogin button {
+  background-color: white;
+  border: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+* body .sidebar .anonlogin button a {
+  text-decoration: none;
+  color: #243F67;
+  font-size: 2vh;
 }
 /*# sourceMappingURL=login.css.map */
