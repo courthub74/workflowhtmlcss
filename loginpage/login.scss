@@ -23,7 +23,7 @@ $background: #F3F9FF;
             background-color: $darkblue;
             color: white;
             transition: all 0.5s ease-in;
-            padding: 20px 0;
+            padding: 20px 0 20px;
             display: flex;
             flex-direction: column;
             gap: 500px;
@@ -32,6 +32,7 @@ $background: #F3F9FF;
                 font-size: 3vh;
                 font-weight: bold;
                 text-align: center;
+                padding-top: 10px;
             }
             // Anonymous Login Button and header
             .anonlogin {
@@ -55,10 +56,6 @@ $background: #F3F9FF;
             }
         }
         .pagestuff {
-            // display: flex;
-            // flex-direction: column;
-            // align-items: center;
-            // justify-content: center;
             text-align: center;
             width: 100%;
             padding-top: 60px;
@@ -74,6 +71,50 @@ $background: #F3F9FF;
                     height: 300px;
                     width: 300px;
                     // border: 1px yellow solid;
+                }
+            }
+            .loginarea {
+                display: flex;
+                justify-content: center;
+                padding-top: 70px;
+                .login {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 51px;
+                    p {
+                        font-size: 3vh;
+                        text-align: left;
+                        color: $darkblue;
+                    }
+                    input {
+                        width: 250px;
+                        height: 30px;
+                        padding-left: 10px;
+                        background-color: $darkblue;
+                        border: none;
+                        color: white;
+                    }
+                    ::placeholder {
+                        color: whitesmoke;
+                    }
+                }
+                .loginbutton {
+                    // border: 1px green solid;
+                    align-self: center;
+                    padding-top: 50px;
+                    button {
+                        background-color: white;
+                        border: $darkblue 2px solid;
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        font-size: 2vh;
+                        a {
+                            text-decoration: none;
+                            color: $darkblue;
+                        }
+                    }
                 }
             }
         }
